@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  background-color: lightblue;
+  text-align: center;
+}
+
+header{
+  background-color: lightsteelblue;
+  border: 2px solid blue;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.infotext{
+  text-align: center;
+  font-size: 120%
+}
+
+.calcbutton{
+  background-color: whitesmoke;
+  color: black;
+  height: 50px;
+  width: 500px;
+  font-size: 200%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  transition-duration: 0.1s
+}
+
+.calcbutton:hover {
+  color: white;
+}
+
+#voltbutton{
+  border: 3px solid red;
+}
+
+#voltbutton:hover {
+  background-color: red;
+}
+
+#ampbutton{
+  border: 3px solid green;
+}
+
+#ampbutton:hover {
+  background-color: green;
+}
+
+#ohmbutton{
+  border: 3px solid indigo;
+}
+
+#ohmbutton:hover {
+  background-color: indigo;
+}
+
+#volumebutton{
+  border: 3px solid chartreuse;
+}
+
+#volumebutton:hover{
+  background-color: chartreuse;
+}
+
+#volumebutton2{
+  border: 3px solid chartreuse;
+  font-size: 150%;
+}
+
+#volumebutton2:hover{
+  background-color: chartreuse;
+}
+
+#dichtbutton{
+  border: 3px solid cadetblue;
+  font-size: 150%;
+}
+
+#dichtbutton:hover{
+  background-color: cadetblue;
+}
+
+#massabutton{
+  border: 3px solid crimson;
+  font-size: 150%;
+}
+
+#massabutton:hover{
+  background-color: crimson;
+}
+
+#kmhbutton{
+  border: 3px solid darkorange;
+  font-size: 150%;
+}
+
+#kmhbutton:hover{
+  background-color: darkorange;
+}
+
+#mpsbutton{
+  border: 3px solid goldenrod;
+  font-size: 150%;
+}
+
+#mpsbutton:hover{
+  background-color: goldenrod;
+}

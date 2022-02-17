@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Natuurkunde Hulpmiddelen</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="calculator.js"></script>
+  </head>
+  <body>
+    <header>
+      Gemaakt door Thymen P.
+    </header>
+    <div id="buttons">
+        <h1>Volt</h1>
+        <br>
+        <div class="volt">
+          <p>
+            <button type="button" onclick="volt();" id="voltbutton" class="calcbutton"><strong>Bereken Met Amp en Ohm</strong></button>
+            <p id="volttext" class="infotext">Volt: -</p>
+          </p>
+        </div>
+        <br>
+        <h1>Ampère</h1>
+        <div class="amp">
+          <p>
+            <button type="button" onclick="amp();" id="ampbutton" class="calcbutton"><strong>Bereken met Volt en Ohm</strong></button>
+            <p id="amptext" class="infotext">Ampère: -</p>
+          </p>
+        </div>
+        <br>
+        <h1>Ohm</h1>
+        <div class="ohm">
+          <p>
+            <button type="button" onclick="ohm();" id="ohmbutton" class="calcbutton"><strong>Bereken met Volt en Amp</strong></button>
+            <p id="ohmtext" class="infotext">Ohm: -</p>
+          </p>
+        </div>
+        <br>
+        <br>
+        <div class="inhoud">
+          <h1>Volume</h1>
+          <br>
+          <div class="volume">
+            <p>
+              <button type="button" onclick="volume();" id="volumebutton" class="calcbutton"><strong>Bereken met L, B, H</strong></button>
+              <br>
+              <button type="button" onclick="volume2();" id="volumebutton2" class="calcbutton"><strong>Bereken met Massa en Dichtheid</strong></button>
+              <p id="volumetext" class="infotext">Volume: -</p>
+            </p>
+          </div>
+        </div>
+        <br>
+        <h1>Dichtheid</h1>
+        <div class="dicht">
+          <p>
+            <button type="button" onclick="dicht();" id="dichtbutton" class="calcbutton"><strong>Bereken met Massa en Volume</strong></button>
+            <p id="dichttext" class="infotext">Dichtheid: -</p>
+          </p>
+        </div>
+        <br>
+        <h1>Massa</h1>
+        <div class="massa">
+          <p>
+            <button type="button" onclick="massa();" id="massabutton" class="calcbutton"><strong>Bereken met Volume en Dichtheid</strong></button>
+            <p id="massatext" class="infotext">Massa: -</p>
+          </p>
+        </div>
+
+      <br>
+      <h1>KM/h</h1>
+      <div class="kmh">
+        <button type="button" onclick="kilometer();" id="kmhbutton" class="calcbutton"><strong>Bereken met Meter per Seconde</strong></button>
+        <p id="kmhtext" class="infotext">Kilometer per uur:</p>
+      </div>
+      <h1>M/s</h1>
+      <div class="mps">
+        <button type="button" onclick="mps();" id="mpsbutton" class="calcbutton"><strong>Bereken met Kilometer per uur</strong></button>
+        <p id="mpstext" class="infotext">Meter per seconde:</p>
+      </div>
+    </div>
+  </body>
+</html>
